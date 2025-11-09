@@ -1,0 +1,31 @@
+{
+  "name": "otakudesu-api-workers",
+  "version": "2.0.0",
+  "description": "OtakuDesu REST API for Cloudflare Workers",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "start": "wrangler dev"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "anime",
+    "api",
+    "otakudesu"
+  ],
+  "author": "BR1LL14N",
+  "license": "MIT",
+  "dependencies": {
+    "hono": "^4.10.4",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "wrangler": "^3.78.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
