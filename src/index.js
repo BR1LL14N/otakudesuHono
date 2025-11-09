@@ -59,7 +59,7 @@ const fetchWithRetry = async (url, retries = 3) => {
 app.get("/", (c) => {
   return c.json({
     message: "Welcome To Unofficial Otakudesu REST API",
-    createdBy: "KaedeNoKi Team ♥️",
+    createdBy: "well well well team ♥️",
     version: "2.0",
     endpoints: {
       home: "/api/home",
